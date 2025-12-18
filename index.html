@@ -313,27 +313,6 @@
             margin-bottom: 0.8rem;
         }
         
-        .cta-button {
-            display: inline-block;
-            background: linear-gradient(to right, var(--secondary), var(--primary));
-            color: white;
-            padding: 12px 28px;
-            border-radius: 50px;
-            font-size: 1rem;
-            font-weight: 600;
-            text-decoration: none;
-            transition: var(--transition);
-            box-shadow: 0 6px 15px rgba(45, 156, 219, 0.3);
-            margin-top: 1rem;
-            border: none;
-            cursor: pointer;
-        }
-        
-        .cta-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(45, 156, 219, 0.4);
-        }
-        
         footer {
             background-color: var(--primary);
             color: white;
@@ -408,7 +387,6 @@
         <section class="hero">
             <h2>Founder Fireside + Networking Event</h2>
             <p>This event brings together two founders with complementary experiences in scaling startups, offering students a unique opportunity to learn how early decisions and strategic choices compound over time.</p>
-            <a href="#register" class="cta-button">Register Now</a>
             
             <div class="highlight-box">
                 <h3>Executive Summary</h3>
@@ -675,13 +653,6 @@
                 </div>
             </div>
         </section>
-
-        <section id="register" style="text-align: center; padding: 2.5rem 0;">
-            <h3 style="font-size: 1.8rem; color: var(--primary); margin-bottom: 1rem;">Join the Founder Fireside Event</h3>
-            <p style="font-size: 1.1rem; color: var(--gray); max-width: 700px; margin: 0 auto 1.5rem;">Strengthen connections between students and founders while creating a repeatable, low-risk event model for the Morrissette ecosystem.</p>
-            <a href="#" class="cta-button">Register Now</a>
-            <p style="margin-top: 1rem; color: var(--gray); font-size: 0.9rem;">Limited to 50–70 high-potential students</p>
-        </section>
     </main>
 
     <footer>
@@ -715,27 +686,6 @@
                 card.style.transform = 'translateY(20px)';
                 card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
                 observer.observe(card);
-            });
-            
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('href');
-                    if(targetId === '#') return;
-                    
-                    const targetElement = document.querySelector(targetId);
-                    if(targetElement) {
-                        window.scrollTo({
-                            top: targetElement.offsetTop - 80,
-                            behavior: 'smooth'
-                        });
-                    }
-                });
-            });
-            
-            document.querySelector('.cta-button').addEventListener('click', function(e) {
-                e.preventDefault();
-                alert('Registration for the Founder Fireside + Networking Event will open soon.');
             });
         });
     </script>
