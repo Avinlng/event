@@ -42,8 +42,6 @@
             background: linear-gradient(135deg, var(--primary) 0%, #2c5282 100%);
             color: white;
             padding: 2rem 0;
-            border-bottom-left-radius: 30px;
-            border-bottom-right-radius: 30px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
         
@@ -107,19 +105,19 @@
         }
         
         .hero {
-            padding: 4rem 0;
+            padding: 3rem 0;
             text-align: center;
         }
         
         .hero h2 {
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             color: var(--primary);
             margin-bottom: 1rem;
             line-height: 1.3;
         }
         
         .hero p {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             color: var(--gray);
             max-width: 800px;
             margin: 0 auto 2rem;
@@ -128,84 +126,84 @@
         .highlight-box {
             background-color: white;
             border-radius: var(--border-radius);
-            padding: 2rem;
+            padding: 1.5rem;
             box-shadow: var(--box-shadow);
             margin-top: 2rem;
             border-left: 5px solid var(--accent);
         }
         
         section {
-            margin-bottom: 4rem;
+            margin-bottom: 3rem;
         }
         
         .section-title {
             display: flex;
             align-items: center;
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
             color: var(--primary);
         }
         
         .section-title i {
             background-color: var(--secondary);
             color: white;
-            width: 50px;
-            height: 50px;
+            width: 45px;
+            height: 45px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-right: 15px;
-            font-size: 1.5rem;
+            margin-right: 12px;
+            font-size: 1.3rem;
         }
         
         .section-title h3 {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
         }
         
         .cards-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 25px;
-            margin-top: 2rem;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 1.5rem;
         }
         
         .card {
             background-color: white;
             border-radius: var(--border-radius);
-            padding: 1.8rem;
+            padding: 1.5rem;
             box-shadow: var(--box-shadow);
             transition: var(--transition);
             border-top: 4px solid var(--secondary);
         }
         
         .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
         }
         
         .card-icon {
             background-color: rgba(45, 156, 219, 0.1);
             color: var(--secondary);
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 1.2rem;
-            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
         }
         
         .card h4 {
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
             color: var(--primary);
         }
         
         .speakers-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 30px;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
         }
         
         .speaker-card {
@@ -217,25 +215,25 @@
         }
         
         .speaker-card:hover {
-            transform: translateY(-8px);
+            transform: translateY(-5px);
         }
         
         .speaker-img {
-            height: 220px;
+            height: 200px;
             background-color: #e0e0e0;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 5rem;
+            font-size: 4rem;
             color: var(--gray);
         }
         
         .speaker-info {
-            padding: 1.5rem;
+            padding: 1.2rem;
         }
         
         .speaker-info h4 {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             color: var(--primary);
             margin-bottom: 0.5rem;
         }
@@ -243,35 +241,36 @@
         .speaker-title {
             color: var(--secondary);
             font-weight: 600;
-            margin-bottom: 1rem;
+            margin-bottom: 0.8rem;
+            font-size: 0.95rem;
         }
         
         .speaker-expertise {
             display: flex;
             flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 1rem;
+            gap: 6px;
+            margin-top: 0.8rem;
         }
         
         .expertise-tag {
             background-color: rgba(39, 174, 96, 0.1);
             color: var(--accent);
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-size: 0.8rem;
         }
         
         .timeline {
             position: relative;
-            max-width: 800px;
+            max-width: 700px;
             margin: 0 auto;
         }
         
         .timeline-item {
             background-color: white;
-            padding: 1.5rem;
+            padding: 1.2rem;
             border-radius: var(--border-radius);
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.2rem;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
             border-left: 4px solid var(--accent);
             display: flex;
@@ -281,22 +280,23 @@
         .timeline-time {
             background-color: var(--primary);
             color: white;
-            padding: 8px 15px;
+            padding: 6px 12px;
             border-radius: 20px;
             font-weight: bold;
             margin-right: 1rem;
             white-space: nowrap;
+            font-size: 0.9rem;
         }
         
         .outcomes-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 18px;
         }
         
         .outcome-item {
             background-color: white;
-            padding: 1.5rem;
+            padding: 1.2rem;
             border-radius: var(--border-radius);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
             text-align: center;
@@ -309,17 +309,17 @@
         
         .outcome-icon {
             color: var(--accent);
-            font-size: 2rem;
-            margin-bottom: 1rem;
+            font-size: 1.7rem;
+            margin-bottom: 0.8rem;
         }
         
         .cta-button {
             display: inline-block;
             background: linear-gradient(to right, var(--secondary), var(--primary));
             color: white;
-            padding: 15px 35px;
+            padding: 12px 28px;
             border-radius: 50px;
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 600;
             text-decoration: none;
             transition: var(--transition);
@@ -337,8 +337,8 @@
         footer {
             background-color: var(--primary);
             color: white;
-            padding: 3rem 0;
-            margin-top: 4rem;
+            padding: 2.5rem 0;
+            margin-top: 3rem;
             text-align: center;
         }
         
@@ -350,9 +350,9 @@
         
         .support-request {
             background-color: rgba(255, 255, 255, 0.1);
-            padding: 1.5rem;
+            padding: 1.2rem;
             border-radius: var(--border-radius);
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
             max-width: 600px;
         }
         
@@ -360,7 +360,7 @@
             .header-content {
                 flex-direction: column;
                 text-align: center;
-                gap: 20px;
+                gap: 15px;
             }
             
             .logo-section {
@@ -368,7 +368,7 @@
             }
             
             .hero h2 {
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
             
             .cards-container, .speakers-container, .outcomes-container {
@@ -382,7 +382,7 @@
             
             .timeline-time {
                 margin-right: 0;
-                margin-bottom: 10px;
+                margin-bottom: 8px;
             }
         }
     </style>
@@ -406,21 +406,21 @@
 
     <main class="container">
         <section class="hero">
-            <h2>Learning from Founders: How Early Decisions Shape Startup Futures</h2>
-            <p>This event brings together two founders with complementary experiences in scaling startups, offering a unique opportunity to learn how early decisions and strategic choices compound over time.</p>
-            <a href="#register" class="cta-button">Register for Event</a>
+            <h2>Founder Fireside + Networking Event</h2>
+            <p>This event brings together two founders with complementary experiences in scaling startups, offering students a unique opportunity to learn how early decisions and strategic choices compound over time.</p>
+            <a href="#register" class="cta-button">Register Now</a>
             
             <div class="highlight-box">
-                <h3>Event Purpose</h3>
-                <p>Strengthen connections between students and founders while creating a repeatable, low-risk event model for the Morrissette ecosystem.</p>
-                <div style="display: flex; justify-content: center; gap: 20px; margin-top: 1.5rem; flex-wrap: wrap;">
-                    <span style="background-color: rgba(39, 174, 96, 0.1); color: var(--accent); padding: 8px 16px; border-radius: 20px;">
-                        <i class="fas fa-user-graduate"></i> 50-70 Students
+                <h3>Executive Summary</h3>
+                <p>Targeted at 50–70 high-potential students interested in tech, biotech, and aspiring entrepreneurs, the session will include a moderated fireside chat, pre-screened audience Q&A, and structured networking.</p>
+                <div style="display: flex; justify-content: center; gap: 15px; margin-top: 1.2rem; flex-wrap: wrap;">
+                    <span style="background-color: rgba(39, 174, 96, 0.1); color: var(--accent); padding: 6px 12px; border-radius: 20px; font-size: 0.9rem;">
+                        <i class="fas fa-user-graduate"></i> 50–70 Students
                     </span>
-                    <span style="background-color: rgba(45, 156, 219, 0.1); color: var(--secondary); padding: 8px 16px; border-radius: 20px;">
+                    <span style="background-color: rgba(45, 156, 219, 0.1); color: var(--secondary); padding: 6px 12px; border-radius: 20px; font-size: 0.9rem;">
                         <i class="fas fa-clock"></i> 2 Hours
                     </span>
-                    <span style="background-color: rgba(26, 54, 93, 0.1); color: var(--primary); padding: 8px 16px; border-radius: 20px;">
+                    <span style="background-color: rgba(26, 54, 93, 0.1); color: var(--primary); padding: 6px 12px; border-radius: 20px; font-size: 0.9rem;">
                         <i class="fas fa-handshake"></i> Structured Networking
                     </span>
                 </div>
@@ -430,7 +430,7 @@
         <section id="goals">
             <div class="section-title">
                 <i class="fas fa-bullseye"></i>
-                <h3>Event Goals</h3>
+                <h3>Purpose & Goals</h3>
             </div>
             
             <div class="cards-container">
@@ -438,7 +438,7 @@
                     <div class="card-icon">
                         <i class="fas fa-university"></i>
                     </div>
-                    <h4>For Morrissette Institute</h4>
+                    <h4>For Morrissette</h4>
                     <p>Approve a high-impact, low-risk event that enhances the Institute's programming, promotes founder-student engagement, and strengthens Western's entrepreneurial ecosystem.</p>
                 </div>
                 
@@ -471,7 +471,7 @@
         <section id="speakers">
             <div class="section-title">
                 <i class="fas fa-microphone-alt"></i>
-                <h3>Featured Speakers</h3>
+                <h3>Proposed Founders / Speakers</h3>
             </div>
             
             <div class="speakers-container">
@@ -484,9 +484,9 @@
                         <div class="speaker-title">AI & Biotech Startup Founder</div>
                         <p>Offers a deep technical perspective from AI and biotech startups, emphasizing how early product, team, and architectural decisions influence long-term outcomes.</p>
                         <div class="speaker-expertise">
-                            <span class="expertise-tag">Artificial Intelligence</span>
-                            <span class="expertise-tag">Biotechnology</span>
-                            <span class="expertise-tag">Technical Architecture</span>
+                            <span class="expertise-tag">AI</span>
+                            <span class="expertise-tag">Biotech</span>
+                            <span class="expertise-tag">Technical Decisions</span>
                         </div>
                     </div>
                 </div>
@@ -497,7 +497,7 @@
                     </div>
                     <div class="speaker-info">
                         <h4>Martin Basiri</h4>
-                        <div class="speaker-title">Founder of Global Canadian Company</div>
+                        <div class="speaker-title">Global Scaling Founder</div>
                         <p>Brings firsthand experience scaling a Canadian company into a global organization, including fundraising, hiring at scale, and operational tradeoffs.</p>
                         <div class="speaker-expertise">
                             <span class="expertise-tag">Global Scaling</span>
@@ -508,8 +508,8 @@
                 </div>
             </div>
             
-            <div style="text-align: center; margin-top: 2rem;">
-                <p style="font-style: italic; color: var(--gray); max-width: 800px; margin: 0 auto;">
+            <div style="text-align: center; margin-top: 1.5rem;">
+                <p style="font-style: italic; color: var(--gray); max-width: 700px; margin: 0 auto; font-size: 0.95rem;">
                     <i class="fas fa-quote-right" style="color: var(--secondary); margin-right: 5px;"></i>
                     Together, they provide students with an end-to-end view of scaling—from technical and product decisions to strategic and operational challenges.
                 </p>
@@ -527,7 +527,6 @@
                     <div class="timeline-time">5 minutes</div>
                     <div>
                         <h4>Moderator Introduction</h4>
-                        <p>Event kickoff and introduction of speakers and topics</p>
                     </div>
                 </div>
                 
@@ -535,23 +534,20 @@
                     <div class="timeline-time">40 minutes</div>
                     <div>
                         <h4>Fireside Chat</h4>
-                        <p>In-depth interview with founders about their experiences</p>
                     </div>
                 </div>
                 
                 <div class="timeline-item">
-                    <div class="timeline-time">20 minutes</div>
+                    <div class="timeline-time">15–20 minutes</div>
                     <div>
                         <h4>Pre-Screened Audience Q&A</h4>
-                        <p>Answers to selected student questions</p>
                     </div>
                 </div>
                 
                 <div class="timeline-item">
-                    <div class="timeline-time">40 minutes</div>
+                    <div class="timeline-time">30–40 minutes</div>
                     <div>
                         <h4>Structured Networking</h4>
-                        <p>Opportunity for targeted interaction between students and founders</p>
                     </div>
                 </div>
             </div>
@@ -560,34 +556,82 @@
         <section id="audience">
             <div class="section-title">
                 <i class="fas fa-user-friends"></i>
-                <h3>Target Audience</h3>
+                <h3>Audience</h3>
             </div>
             
-            <div style="background-color: white; border-radius: var(--border-radius); padding: 2rem; box-shadow: var(--box-shadow);">
-                <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
-                    <div style="background-color: rgba(45, 156, 219, 0.1); color: var(--secondary); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; font-size: 1.5rem;">
+            <div style="background-color: white; border-radius: var(--border-radius); padding: 1.5rem; box-shadow: var(--box-shadow);">
+                <div style="display: flex; align-items: center; margin-bottom: 1.2rem;">
+                    <div style="background-color: rgba(45, 156, 219, 0.1); color: var(--secondary); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; font-size: 1.3rem;">
                         <i class="fas fa-users"></i>
                     </div>
                     <div>
-                        <h4>50-70 High-Potential Students</h4>
+                        <h4>Target: 50–70 students</h4>
                         <p>Students in CS, biotech, engineering, or business with an interest in entrepreneurship</p>
                     </div>
                 </div>
                 
-                <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
-                    <div style="text-align: center; padding: 15px; flex: 1; min-width: 150px;">
-                        <div style="font-size: 2rem; color: var(--primary); font-weight: bold;">40%</div>
-                        <div>Computer Science & Engineering</div>
-                    </div>
-                    <div style="text-align: center; padding: 15px; flex: 1; min-width: 150px;">
-                        <div style="font-size: 2rem; color: var(--primary); font-weight: bold;">30%</div>
-                        <div>Biotech & Life Sciences</div>
-                    </div>
-                    <div style="text-align: center; padding: 15px; flex: 1; min-width: 150px;">
-                        <div style="font-size: 2rem; color: var(--primary); font-weight: bold;">30%</div>
-                        <div>Business & Entrepreneurship</div>
-                    </div>
+                <div style="background-color: rgba(248, 249, 250, 0.8); padding: 1rem; border-radius: var(--border-radius);">
+                    <p style="margin: 0; font-size: 0.95rem; color: var(--gray);">Curation ensures participants are engaged, relevant, and aligned with founders' interests</p>
                 </div>
+            </div>
+        </section>
+
+        <section id="logistics">
+            <div class="section-title">
+                <i class="fas fa-clipboard-list"></i>
+                <h3>Logistics & Timeline</h3>
+            </div>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h4>Venue & Tech</h4>
+                    <p>Handled by the organizer (projector, microphone, optional hybrid setup)</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h4>Promotion</h4>
+                    <p>Through Morrissette channels, relevant clubs, faculty, and social media</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h4>Timeline</h4>
+                    <p>Approval and alignment: Nov–Dec<br>
+                       Founder outreach and confirmation: Jan<br>
+                       Event execution: Feb</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="support">
+            <div class="section-title">
+                <i class="fas fa-hands-helping"></i>
+                <h3>Support Requested</h3>
+            </div>
+            
+            <div style="background-color: white; border-radius: var(--border-radius); padding: 1.5rem; box-shadow: var(--box-shadow);">
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative;">
+                        <i class="fas fa-check" style="color: var(--accent); position: absolute; left: 0;"></i>
+                        Approval to proceed with the event
+                    </li>
+                    <li style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative;">
+                        <i class="fas fa-check" style="color: var(--accent); position: absolute; left: 0;"></i>
+                        Warm introductions to Kooshiar Azimian and Martin Basiri
+                    </li>
+                    <li style="padding-left: 1.5rem; position: relative;">
+                        <i class="fas fa-check" style="color: var(--accent); position: absolute; left: 0;"></i>
+                        Guidance and resources from the Morrissette Entrepreneurship team as needed
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -600,10 +644,10 @@
             <div class="outcomes-container">
                 <div class="outcome-item">
                     <div class="outcome-icon">
-                        <i class="fas fa-handshake"></i>
+                        <i class="fas fa-comments"></i>
                     </div>
                     <h4>High-Quality Engagement</h4>
-                    <p>Meaningful interaction between founders and students</p>
+                    <p>Between founders and students</p>
                 </div>
                 
                 <div class="outcome-item">
@@ -611,7 +655,7 @@
                         <i class="fas fa-network-wired"></i>
                     </div>
                     <h4>Stronger Relationships</h4>
-                    <p>Enhanced student-founder connections within the ecosystem</p>
+                    <p>Student-founder relationships within the ecosystem</p>
                 </div>
                 
                 <div class="outcome-item">
@@ -619,7 +663,7 @@
                         <i class="fas fa-redo"></i>
                     </div>
                     <h4>Repeatable Model</h4>
-                    <p>Scalable framework for future sessions</p>
+                    <p>Scalable event model for future sessions</p>
                 </div>
                 
                 <div class="outcome-item">
@@ -632,29 +676,23 @@
             </div>
         </section>
 
-        <section id="register" style="text-align: center; padding: 3rem 0;">
-            <h3 style="font-size: 2rem; color: var(--primary); margin-bottom: 1rem;">Ready to Join This Unique Event?</h3>
-            <p style="font-size: 1.1rem; color: var(--gray); max-width: 700px; margin: 0 auto 2rem;">An exceptional opportunity to learn from successful founders and network with like-minded students</p>
-            <a href="#" class="cta-button">Register for Event</a>
-            <p style="margin-top: 1rem; color: var(--gray); font-size: 0.9rem;">Limited capacity - Early registration is encouraged</p>
+        <section id="register" style="text-align: center; padding: 2.5rem 0;">
+            <h3 style="font-size: 1.8rem; color: var(--primary); margin-bottom: 1rem;">Join the Founder Fireside Event</h3>
+            <p style="font-size: 1.1rem; color: var(--gray); max-width: 700px; margin: 0 auto 1.5rem;">Strengthen connections between students and founders while creating a repeatable, low-risk event model for the Morrissette ecosystem.</p>
+            <a href="#" class="cta-button">Register Now</a>
+            <p style="margin-top: 1rem; color: var(--gray); font-size: 0.9rem;">Limited to 50–70 high-potential students</p>
         </section>
     </main>
 
     <footer>
         <div class="container footer-content">
             <div class="support-request">
-                <h4>Support Requested from Morrissette</h4>
-                <p>Approval to proceed with the event, warm introductions to speakers, and guidance from the Morrissette Entrepreneurship team</p>
-            </div>
-            
-            <div style="margin-bottom: 1.5rem;">
                 <h4>Morrissette Institute for Entrepreneurship</h4>
-                <p>Western University | Strengthening the Entrepreneurial Ecosystem</p>
+                <p>Strengthening Western's entrepreneurial ecosystem through founder-student engagement</p>
             </div>
             
-            <div style="color: rgba(255, 255, 255, 0.7); font-size: 0.9rem;">
-                <p>Organizer: Morrissette Events Team | Contact: events@morrissette.ca</p>
-                <p>Timeline: Approval & alignment: Nov-Dec | Founder confirmation: Jan | Event execution: Feb</p>
+            <div style="color: rgba(255, 255, 255, 0.8); font-size: 0.9rem; margin-top: 1rem;">
+                <p>Event Proposal | Founder Fireside + Networking Event</p>
             </div>
         </div>
     </footer>
@@ -697,7 +735,7 @@
             
             document.querySelector('.cta-button').addEventListener('click', function(e) {
                 e.preventDefault();
-                alert('Thank you for your interest! The registration form will be available soon.');
+                alert('Registration for the Founder Fireside + Networking Event will open soon.');
             });
         });
     </script>
